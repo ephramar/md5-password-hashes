@@ -12,6 +12,7 @@ Version History:
 1.0             : Initial Release
 */
 
+if ( ! function_exists('wp_check_password') ):
 function wp_check_password($password, $hash, $user_id = '') {
 	// If the hash was updated to the new hash before this plugin
 	// was installed, rehash as md5.
@@ -36,9 +37,12 @@ function wp_check_password($password, $hash, $user_id = '') {
 
 	return apply_filters('check_password', $check, $password, $hash, $user_id);
 }
+endif;
 
+if ( !function_exists('wp_hash_password') ):
 function wp_hash_password($password) {
 	return md5($password);
 }
+endif;
 
 ?>

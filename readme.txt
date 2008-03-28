@@ -1,5 +1,5 @@
 === MD5 Password Hashes ===
-Contributors: rboren
+Contributors: ryan
 Tags: login, password, md5
 Requires at least: 2.5
 Tested up to: 2.5
