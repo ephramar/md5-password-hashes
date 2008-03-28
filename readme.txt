@@ -3,7 +3,7 @@ Contributors: ryan
 Tags: login, password, md5
 Requires at least: 2.5
 Tested up to: 2.5
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Changes the password hashing in WordPress to use MD5
 

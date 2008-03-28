@@ -6,7 +6,7 @@ Plugin URI: http://wordpress.org/extend/plugins/md5-password-hashes/
 Description: Changes the password hashing in WordPress to use MD5
 Author: Ryan Boren
 Author URI: 
-Version: 1.0
+Version: 1.0.1
 
 Version History:
 1.0             : Initial Release
